@@ -34,3 +34,6 @@ The task of pushing a cart using Evolutionary Programming
 ## DEAP documentation
 https://deap.readthedocs.io/en/master/
 
+## Pyvolution documentation
+https://pyvolution.readthedocs.io/en/latest/index.html
+
