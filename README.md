@@ -1,6 +1,12 @@
 # GeneticAlgorithms2020
 The task of pushing a cart using Evolutionary Programming
 
+## Pytania i odpowiedzi:
+- Jakie ograniczenia dla u? Od 0 do 100? Od 0 do 10.0?
+
+- Czy powinniśmy traktować U jako sterowanie i nasza populację? Czy traktować J jako Fit?
+
+
 ## Towardsdatascience examples
 - DEAP > https://towardsdatascience.com/genetic-algorithms-in-python-using-the-deap-library-e67f7ce4024c
 
