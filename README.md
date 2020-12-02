@@ -7,6 +7,14 @@ The task of pushing a cart using Evolutionary Programming
 - Czy powinniśmy traktować U jako sterowanie i nasza populację? Czy traktować J jako Fit?
 
 ![AG](https://user-images.githubusercontent.com/29255453/100860091-591deb00-3490-11eb-99f5-20edd2091829.PNG)
+
+- Przykład: N = 3 
+- 1sza iteracja!
+- Wybieramy populacje u_0 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+- Liczymy x_2 dla całej populacji dla k = 0, k = 1, k = 2 (do N-1)
+- Mając x_2(k=2) obliczamy J dla każdego osobnika z populacji u_0
+- I wybieramy J_max spośród powyższych i zapisujemy je na wykresie 
+
 ![image](https://user-images.githubusercontent.com/28922780/100869183-f2eb9500-349c-11eb-87d0-a04b061dcb92.png)
 
 ## Schemat 
