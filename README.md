@@ -7,7 +7,7 @@ The task of pushing a cart using Evolutionary Programming
 - Czy powinniśmy traktować U jako sterowanie i nasza populację? Czy traktować J jako Fit?
 
 ![AG](https://user-images.githubusercontent.com/29255453/100860091-591deb00-3490-11eb-99f5-20edd2091829.PNG)
-![image](https://user-images.githubusercontent.com/28922780/100862404-68eafe80-3493-11eb-991a-e1d8c7872448.png)
+![AG4](https://user-images.githubusercontent.com/29255453/100866935-b10d1f80-3499-11eb-9ab2-5912a3e00ffa.PNG)
 
 ## Schemat 
 ![AG1](https://user-images.githubusercontent.com/29255453/100860591-fd079680-3490-11eb-8290-0ba06040b792.PNG)
