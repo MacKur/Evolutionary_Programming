@@ -6,6 +6,12 @@ The task of pushing a cart using Evolutionary Programming
 
 - Czy powinniśmy traktować U jako sterowanie i nasza populację? Czy traktować J jako Fit?
 
+![AG](https://user-images.githubusercontent.com/29255453/100860091-591deb00-3490-11eb-99f5-20edd2091829.PNG)
+
+## Schemat 
+![AG1](https://user-images.githubusercontent.com/29255453/100860591-fd079680-3490-11eb-8290-0ba06040b792.PNG)
+![AG2](https://user-images.githubusercontent.com/29255453/100860590-fc6f0000-3490-11eb-94e7-94d3fa9c8cd8.PNG)
+![AG3](https://user-images.githubusercontent.com/29255453/100860593-fd079680-3490-11eb-9c66-0fb407f43aa6.PNG)
 
 ## Towardsdatascience examples
 - DEAP > https://towardsdatascience.com/genetic-algorithms-in-python-using-the-deap-library-e67f7ce4024c
