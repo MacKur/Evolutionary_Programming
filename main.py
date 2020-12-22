@@ -1,7 +1,6 @@
 """
 ALGORYTMY GENETYCZNE
 
-TODO:   dodać requirements.txt
 TODO:   ładnie zakomentować kod
 TODO:   zmienić nazwy zmiennych na czytelniejsze
 """
