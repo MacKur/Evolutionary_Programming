@@ -1,6 +1,9 @@
 # GeneticAlgorithms2020
 The task of pushing a cart using Evolutionary Programming
 
+![image](https://user-images.githubusercontent.com/28922780/102869279-abbd4800-443b-11eb-95c0-a1f908eaf9fe.png)
+---
+
 ## Pytania i odpowiedzi:
 - Jakie ograniczenia dla u? Od 0 do 100? Od 0 do 10.0?
 
