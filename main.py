@@ -23,11 +23,13 @@ class BColors:
     UNDERLINE = '\033[4m'
 
 
-####################################################################################################
-#                                      Funkcja przystosowania                                      #
-# Dla każdego osobnika całej populacji (70 osobników rodzicielskich oraz 70 osobników potomnych    #
-# (zmutowanych)) obliczamy funkcję przystosowania wartość współczynnika J po ówczesnym odkodowaniu #
-####################################################################################################
+#############################################################
+#                 Funkcja przystosowania                    #
+# Dla każdego osobnika całej populacji (70 osobników        #
+# rodzicielskich oraz 70 osobników potomnych (zmutowanych)) #
+# obliczamy funkcję przystosowania wartość współczynnika J  #
+# po ówczesnym odkodowaniu                                  #
+#############################################################
 def fitness_function(_N, population):
     all_fitness = []
     u = []
@@ -44,9 +46,10 @@ def fitness_function(_N, population):
         u.clear()
         man = man * values
 
-        ##################################################################################
-        # Odkodowanie chromosomu osobnika, w celu uzyskania zawartych w nim sterowań (u) #
-        ##################################################################################
+        ###########################################
+        # Odkodowanie chromosomu osobnika, w celu #
+        # uzyskania zawartych w nim sterowań (u)  #
+        ###########################################
         for j in range(N):
             arr.append(man[a:b])
             a = a + 20
@@ -113,7 +116,8 @@ def make_new_population(_current_population):
     combined = zip(whole_population, fitness_array)
     population_sorted = sorted(combined, key=fitness_sort, reverse=True)
     better_half = population_sorted[:len(population_sorted) // 2]
-    new_p = [x[0] for x in better_half]  # Wyciągnięcie samej populacji z krotki zawierającej osobnika i jego wartość J
+    # Wyciągnięcie samej populacji z krotki zawierającej osobnika i jego wartość J
+    new_p = [x[0] for x in better_half]
     new_p = np.array(new_p)
     return new_p
 
@@ -124,7 +128,7 @@ def make_new_population(_current_population):
 our_solution = 0
 size_of_population = 70
 epsilon = 0.20
-iterations = 8741
+iterations = 6234
 N = 5
 
 values = []
@@ -154,6 +158,9 @@ for i in range(iterations):
     duration = time.time() - start_t
     our_solution = max(best_fitness_individuals)
     current_population = new_population
+    print(f"{BColors.WARNING}########################################{BColors.ENDC}")
+    print(f"{BColors.WARNING}########### ITERATIONS ", i, f"###########{BColors.ENDC}")
+    print(f"{BColors.WARNING}########################################{BColors.ENDC}")
 best = current_population[0]
 
 duration_all = time.time() - start_all_t
@@ -167,4 +174,3 @@ plt.title('Osiągnięta wartość funkcji J = {:.4f} po wykonaniu {:.1f} iteracj
                                                                                                           iterations,
                                                                                                           duration_all))
 plt.show()
-
