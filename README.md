@@ -2,10 +2,10 @@
 The task of pushing a cart using Evolutionary Programming
 
 ## Temat projektu
-![image](https://raw.githubusercontent.com/MacKur/Evolutionary_Programming/main/images%2Bresults/Polecenie.PNG)
+<img src="https://raw.githubusercontent.com/MacKur/Evolutionary_Programming/main/images%2Bresults/Polecenie.PNG" width="750" height="400">
 
 ## Schemat tworzonego algorytmu
-![image](https://raw.githubusercontent.com/MacKur/Evolutionary_Programming/main/images%2Bresults/Schemat.png)
+<img src="https://raw.githubusercontent.com/MacKur/Evolutionary_Programming/main/images%2Bresults/Schemat.png" width="500" height="800">
 
 ## Wyjaśnienie implementacji oraz zastosowanego algorytmu ewolucyjnego
 ### Kodowanie
